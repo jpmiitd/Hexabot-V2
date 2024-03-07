@@ -245,11 +245,19 @@ void generate_trajec(float deg, float height) {
   coordinate start_pt,end_pt,p1_pt,p2_pt;
   start_pt.x = disp*cos(toRadian(deg));
   start_pt.y = disp*sin(toRadian(deg));
+  start_pt.z = height;
+
   end_pt.x = -start_pt.x;
   end_pt.y = -start_pt.y;
-  start_pt.z = height;
   end_pt.z = height;
-  float endX 
+
+  p1_pt.x = start_pt.x/2;
+  p1_pt.y = start_pt.y/2
+  p1_pt.z = -height/2;
+  
+  p2_pt.x = end_pt.x/2;
+  p2_pt.y = end_pt.y/2
+  p2_pt.z = -height/2;
 
   coordinate bz_limit_pt[3][2];
   for(int i=0;i<3;i++)
