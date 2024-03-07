@@ -209,6 +209,28 @@ void LEG::go_to(float X, float Y, float Z)
     ik(id);
   }
 
+
+void rotate_points(int deg,coordinate* start_pt, coordinate* p1_pt, coordinate* p2_pt, coordinate* end_pt){
+  int cos_theta=cos(deg);
+  int sin_theta=sin(deg);
+  start_pt->x=start_pt->x*cos_theta-start_pt->y*sin_theta;
+  start_pt->y=start_pt->x*sin_theta+start_pt->y*cos_theta;
+
+  p1_pt->x=p1_pt->x*cos_theta-p1_pt->y*sin_theta;
+  p1_pt->y=p1_pt->x*sin_theta+p1_pt->y*cos_theta;
+
+  p2_pt->x=p2_pt->x*cos_theta-p2_pt->y*sin_theta;
+  p2_pt->y=p2_pt->x*sin_theta+p2_pt->y*cos_theta;
+
+  end_pt->x=end_pt->x*cos_theta-end_pt->y*sin_theta;
+  end_pt->y=end_pt->x*sin_theta+end_pt->y*cos_theta;
+  return;
+}
+
+
+
+
+
 void generate_trajec(float deg, float height) {
   float m_slope = tan((deg / 180.) * pi);
   float m_slope_2 = m_slope * m_slope;
