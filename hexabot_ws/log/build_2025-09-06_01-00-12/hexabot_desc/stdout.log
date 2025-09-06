@@ -1,0 +1,22 @@
+running egg_info
+writing ../../build/hexabot_desc/hexabot_desc.egg-info/PKG-INFO
+writing dependency_links to ../../build/hexabot_desc/hexabot_desc.egg-info/dependency_links.txt
+writing requirements to ../../build/hexabot_desc/hexabot_desc.egg-info/requires.txt
+writing top-level names to ../../build/hexabot_desc/hexabot_desc.egg-info/top_level.txt
+reading manifest file '../../build/hexabot_desc/hexabot_desc.egg-info/SOURCES.txt'
+writing manifest file '../../build/hexabot_desc/hexabot_desc.egg-info/SOURCES.txt'
+running build
+running build_py
+copying hexabot_desc/__init__.py -> /home/jpm/hexabot_ws/build/hexabot_desc/build/lib/hexabot_desc
+running install
+running install_lib
+running install_data
+copying resource/hexabot_desc -> /home/jpm/hexabot_ws/install/hexabot_desc/share/ament_index/resource_index/packages
+copying package.xml -> /home/jpm/hexabot_ws/install/hexabot_desc/share/hexabot_desc
+copying launch/view_robot_in_gazebo.launch.py -> /home/jpm/hexabot_ws/install/hexabot_desc/share/hexabot_desc/launch
+copying urdf/hexabot_v2.urdf -> /home/jpm/hexabot_ws/install/hexabot_desc/share/hexabot_desc/urdf
+running install_egg_info
+removing '/home/jpm/hexabot_ws/install/hexabot_desc/lib/python3.10/site-packages/hexabot_desc-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/hexabot_desc/hexabot_desc.egg-info to /home/jpm/hexabot_ws/install/hexabot_desc/lib/python3.10/site-packages/hexabot_desc-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/jpm/hexabot_ws/build/hexabot_desc/install.log'

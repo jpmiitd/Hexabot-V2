@@ -1,0 +1,24 @@
+[0.865s] Invoking command in '/home/jpm/hexabot_ws/src/hexabot_desc': PYTHONPATH=/home/jpm/hexabot_ws/build/hexabot_desc/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jpm/hexabot_ws/install/hexabot_desc/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/hexabot_desc build --build-base /home/jpm/hexabot_ws/build/hexabot_desc/build install --record /home/jpm/hexabot_ws/build/hexabot_desc/install.log --single-version-externally-managed install_data
+[1.122s] running egg_info
+[1.142s] writing ../../build/hexabot_desc/hexabot_desc.egg-info/PKG-INFO
+[1.142s] writing dependency_links to ../../build/hexabot_desc/hexabot_desc.egg-info/dependency_links.txt
+[1.143s] writing requirements to ../../build/hexabot_desc/hexabot_desc.egg-info/requires.txt
+[1.143s] writing top-level names to ../../build/hexabot_desc/hexabot_desc.egg-info/top_level.txt
+[1.182s] reading manifest file '../../build/hexabot_desc/hexabot_desc.egg-info/SOURCES.txt'
+[1.184s] writing manifest file '../../build/hexabot_desc/hexabot_desc.egg-info/SOURCES.txt'
+[1.184s] running build
+[1.184s] running build_py
+[1.185s] copying hexabot_desc/__init__.py -> /home/jpm/hexabot_ws/build/hexabot_desc/build/lib/hexabot_desc
+[1.185s] running install
+[1.189s] running install_lib
+[1.208s] running install_data
+[1.209s] copying resource/hexabot_desc -> /home/jpm/hexabot_ws/install/hexabot_desc/share/ament_index/resource_index/packages
+[1.209s] copying package.xml -> /home/jpm/hexabot_ws/install/hexabot_desc/share/hexabot_desc
+[1.209s] copying launch/view_robot_in_gazebo.launch.py -> /home/jpm/hexabot_ws/install/hexabot_desc/share/hexabot_desc/launch
+[1.209s] copying urdf/hexabot_v2.urdf -> /home/jpm/hexabot_ws/install/hexabot_desc/share/hexabot_desc/urdf
+[1.209s] running install_egg_info
+[1.230s] removing '/home/jpm/hexabot_ws/install/hexabot_desc/lib/python3.10/site-packages/hexabot_desc-0.0.0-py3.10.egg-info' (and everything under it)
+[1.230s] Copying ../../build/hexabot_desc/hexabot_desc.egg-info to /home/jpm/hexabot_ws/install/hexabot_desc/lib/python3.10/site-packages/hexabot_desc-0.0.0-py3.10.egg-info
+[1.230s] running install_scripts
+[1.393s] writing list of installed files to '/home/jpm/hexabot_ws/build/hexabot_desc/install.log'
+[1.428s] Invoked command in '/home/jpm/hexabot_ws/src/hexabot_desc' returned '0': PYTHONPATH=/home/jpm/hexabot_ws/build/hexabot_desc/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jpm/hexabot_ws/install/hexabot_desc/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/hexabot_desc build --build-base /home/jpm/hexabot_ws/build/hexabot_desc/build install --record /home/jpm/hexabot_ws/build/hexabot_desc/install.log --single-version-externally-managed install_data

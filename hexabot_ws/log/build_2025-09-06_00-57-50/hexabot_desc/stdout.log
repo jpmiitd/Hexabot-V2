@@ -1,0 +1,56 @@
+running egg_info
+creating ../../build/hexabot_desc/hexabot_desc.egg-info
+writing ../../build/hexabot_desc/hexabot_desc.egg-info/PKG-INFO
+writing dependency_links to ../../build/hexabot_desc/hexabot_desc.egg-info/dependency_links.txt
+writing requirements to ../../build/hexabot_desc/hexabot_desc.egg-info/requires.txt
+writing top-level names to ../../build/hexabot_desc/hexabot_desc.egg-info/top_level.txt
+writing manifest file '../../build/hexabot_desc/hexabot_desc.egg-info/SOURCES.txt'
+reading manifest file '../../build/hexabot_desc/hexabot_desc.egg-info/SOURCES.txt'
+writing manifest file '../../build/hexabot_desc/hexabot_desc.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/jpm/hexabot_ws/build/hexabot_desc/build/lib/hexabot_desc
+copying hexabot_desc/__init__.py -> /home/jpm/hexabot_ws/build/hexabot_desc/build/lib/hexabot_desc
+running install
+running install_lib
+creating /home/jpm/hexabot_ws/install/hexabot_desc/lib/python3.10/site-packages/hexabot_desc
+copying /home/jpm/hexabot_ws/build/hexabot_desc/build/lib/hexabot_desc/__init__.py -> /home/jpm/hexabot_ws/install/hexabot_desc/lib/python3.10/site-packages/hexabot_desc
+byte-compiling /home/jpm/hexabot_ws/install/hexabot_desc/lib/python3.10/site-packages/hexabot_desc/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/jpm/hexabot_ws/install/hexabot_desc/share/ament_index/resource_index/packages
+copying resource/hexabot_desc -> /home/jpm/hexabot_ws/install/hexabot_desc/share/ament_index/resource_index/packages
+copying package.xml -> /home/jpm/hexabot_ws/install/hexabot_desc/share/hexabot_desc
+creating /home/jpm/hexabot_ws/install/hexabot_desc/share/hexabot_desc/launch
+copying launch/view_robot_in_gazebo.launch.py -> /home/jpm/hexabot_ws/install/hexabot_desc/share/hexabot_desc/launch
+creating /home/jpm/hexabot_ws/install/hexabot_desc/share/hexabot_desc/urdf
+copying urdf/hexabot_v2.urdf -> /home/jpm/hexabot_ws/install/hexabot_desc/share/hexabot_desc/urdf
+creating /home/jpm/hexabot_ws/install/hexabot_desc/share/hexabot_desc/urdf/meshes
+copying urdf/meshes/j18.stl -> /home/jpm/hexabot_ws/install/hexabot_desc/share/hexabot_desc/urdf/meshes
+copying urdf/meshes/j14.stl -> /home/jpm/hexabot_ws/install/hexabot_desc/share/hexabot_desc/urdf/meshes
+copying urdf/meshes/j1.stl -> /home/jpm/hexabot_ws/install/hexabot_desc/share/hexabot_desc/urdf/meshes
+copying urdf/meshes/j17.stl -> /home/jpm/hexabot_ws/install/hexabot_desc/share/hexabot_desc/urdf/meshes
+copying urdf/meshes/j2.stl -> /home/jpm/hexabot_ws/install/hexabot_desc/share/hexabot_desc/urdf/meshes
+copying urdf/meshes/j13.stl -> /home/jpm/hexabot_ws/install/hexabot_desc/share/hexabot_desc/urdf/meshes
+copying urdf/meshes/j24.stl -> /home/jpm/hexabot_ws/install/hexabot_desc/share/hexabot_desc/urdf/meshes
+copying urdf/meshes/j3.stl -> /home/jpm/hexabot_ws/install/hexabot_desc/share/hexabot_desc/urdf/meshes
+copying urdf/meshes/j22.stl -> /home/jpm/hexabot_ws/install/hexabot_desc/share/hexabot_desc/urdf/meshes
+copying urdf/meshes/j8.stl -> /home/jpm/hexabot_ws/install/hexabot_desc/share/hexabot_desc/urdf/meshes
+copying urdf/meshes/j7.stl -> /home/jpm/hexabot_ws/install/hexabot_desc/share/hexabot_desc/urdf/meshes
+copying urdf/meshes/j4.stl -> /home/jpm/hexabot_ws/install/hexabot_desc/share/hexabot_desc/urdf/meshes
+copying urdf/meshes/j6.stl -> /home/jpm/hexabot_ws/install/hexabot_desc/share/hexabot_desc/urdf/meshes
+copying urdf/meshes/j20.stl -> /home/jpm/hexabot_ws/install/hexabot_desc/share/hexabot_desc/urdf/meshes
+copying urdf/meshes/j23.stl -> /home/jpm/hexabot_ws/install/hexabot_desc/share/hexabot_desc/urdf/meshes
+copying urdf/meshes/j9.stl -> /home/jpm/hexabot_ws/install/hexabot_desc/share/hexabot_desc/urdf/meshes
+copying urdf/meshes/j21.stl -> /home/jpm/hexabot_ws/install/hexabot_desc/share/hexabot_desc/urdf/meshes
+copying urdf/meshes/j5.stl -> /home/jpm/hexabot_ws/install/hexabot_desc/share/hexabot_desc/urdf/meshes
+copying urdf/meshes/j16.stl -> /home/jpm/hexabot_ws/install/hexabot_desc/share/hexabot_desc/urdf/meshes
+copying urdf/meshes/j12.stl -> /home/jpm/hexabot_ws/install/hexabot_desc/share/hexabot_desc/urdf/meshes
+copying urdf/meshes/base_link.stl -> /home/jpm/hexabot_ws/install/hexabot_desc/share/hexabot_desc/urdf/meshes
+copying urdf/meshes/j11.stl -> /home/jpm/hexabot_ws/install/hexabot_desc/share/hexabot_desc/urdf/meshes
+copying urdf/meshes/j19.stl -> /home/jpm/hexabot_ws/install/hexabot_desc/share/hexabot_desc/urdf/meshes
+copying urdf/meshes/j15.stl -> /home/jpm/hexabot_ws/install/hexabot_desc/share/hexabot_desc/urdf/meshes
+copying urdf/meshes/j10.stl -> /home/jpm/hexabot_ws/install/hexabot_desc/share/hexabot_desc/urdf/meshes
+running install_egg_info
+Copying ../../build/hexabot_desc/hexabot_desc.egg-info to /home/jpm/hexabot_ws/install/hexabot_desc/lib/python3.10/site-packages/hexabot_desc-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/jpm/hexabot_ws/build/hexabot_desc/install.log'

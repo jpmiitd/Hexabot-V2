@@ -1,0 +1,58 @@
+[0.848s] Invoking command in '/home/jpm/hexabot_ws/src/hexabot_desc': PYTHONPATH=/home/jpm/hexabot_ws/build/hexabot_desc/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jpm/hexabot_ws/install/hexabot_desc/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/hexabot_desc build --build-base /home/jpm/hexabot_ws/build/hexabot_desc/build install --record /home/jpm/hexabot_ws/build/hexabot_desc/install.log --single-version-externally-managed install_data
+[1.108s] running egg_info
+[1.127s] creating ../../build/hexabot_desc/hexabot_desc.egg-info
+[1.127s] writing ../../build/hexabot_desc/hexabot_desc.egg-info/PKG-INFO
+[1.128s] writing dependency_links to ../../build/hexabot_desc/hexabot_desc.egg-info/dependency_links.txt
+[1.128s] writing requirements to ../../build/hexabot_desc/hexabot_desc.egg-info/requires.txt
+[1.128s] writing top-level names to ../../build/hexabot_desc/hexabot_desc.egg-info/top_level.txt
+[1.129s] writing manifest file '../../build/hexabot_desc/hexabot_desc.egg-info/SOURCES.txt'
+[1.168s] reading manifest file '../../build/hexabot_desc/hexabot_desc.egg-info/SOURCES.txt'
+[1.169s] writing manifest file '../../build/hexabot_desc/hexabot_desc.egg-info/SOURCES.txt'
+[1.170s] running build
+[1.170s] running build_py
+[1.170s] creating /home/jpm/hexabot_ws/build/hexabot_desc/build/lib/hexabot_desc
+[1.170s] copying hexabot_desc/__init__.py -> /home/jpm/hexabot_ws/build/hexabot_desc/build/lib/hexabot_desc
+[1.170s] running install
+[1.174s] running install_lib
+[1.193s] creating /home/jpm/hexabot_ws/install/hexabot_desc/lib/python3.10/site-packages/hexabot_desc
+[1.193s] copying /home/jpm/hexabot_ws/build/hexabot_desc/build/lib/hexabot_desc/__init__.py -> /home/jpm/hexabot_ws/install/hexabot_desc/lib/python3.10/site-packages/hexabot_desc
+[1.194s] byte-compiling /home/jpm/hexabot_ws/install/hexabot_desc/lib/python3.10/site-packages/hexabot_desc/__init__.py to __init__.cpython-310.pyc
+[1.194s] running install_data
+[1.194s] creating /home/jpm/hexabot_ws/install/hexabot_desc/share/ament_index/resource_index/packages
+[1.194s] copying resource/hexabot_desc -> /home/jpm/hexabot_ws/install/hexabot_desc/share/ament_index/resource_index/packages
+[1.194s] copying package.xml -> /home/jpm/hexabot_ws/install/hexabot_desc/share/hexabot_desc
+[1.195s] creating /home/jpm/hexabot_ws/install/hexabot_desc/share/hexabot_desc/launch
+[1.195s] copying launch/view_robot_in_gazebo.launch.py -> /home/jpm/hexabot_ws/install/hexabot_desc/share/hexabot_desc/launch
+[1.195s] creating /home/jpm/hexabot_ws/install/hexabot_desc/share/hexabot_desc/urdf
+[1.195s] copying urdf/hexabot_v2.urdf -> /home/jpm/hexabot_ws/install/hexabot_desc/share/hexabot_desc/urdf
+[1.195s] creating /home/jpm/hexabot_ws/install/hexabot_desc/share/hexabot_desc/urdf/meshes
+[1.195s] copying urdf/meshes/j18.stl -> /home/jpm/hexabot_ws/install/hexabot_desc/share/hexabot_desc/urdf/meshes
+[1.195s] copying urdf/meshes/j14.stl -> /home/jpm/hexabot_ws/install/hexabot_desc/share/hexabot_desc/urdf/meshes
+[1.196s] copying urdf/meshes/j1.stl -> /home/jpm/hexabot_ws/install/hexabot_desc/share/hexabot_desc/urdf/meshes
+[1.197s] copying urdf/meshes/j17.stl -> /home/jpm/hexabot_ws/install/hexabot_desc/share/hexabot_desc/urdf/meshes
+[1.197s] copying urdf/meshes/j2.stl -> /home/jpm/hexabot_ws/install/hexabot_desc/share/hexabot_desc/urdf/meshes
+[1.198s] copying urdf/meshes/j13.stl -> /home/jpm/hexabot_ws/install/hexabot_desc/share/hexabot_desc/urdf/meshes
+[1.198s] copying urdf/meshes/j24.stl -> /home/jpm/hexabot_ws/install/hexabot_desc/share/hexabot_desc/urdf/meshes
+[1.199s] copying urdf/meshes/j3.stl -> /home/jpm/hexabot_ws/install/hexabot_desc/share/hexabot_desc/urdf/meshes
+[1.200s] copying urdf/meshes/j22.stl -> /home/jpm/hexabot_ws/install/hexabot_desc/share/hexabot_desc/urdf/meshes
+[1.201s] copying urdf/meshes/j8.stl -> /home/jpm/hexabot_ws/install/hexabot_desc/share/hexabot_desc/urdf/meshes
+[1.202s] copying urdf/meshes/j7.stl -> /home/jpm/hexabot_ws/install/hexabot_desc/share/hexabot_desc/urdf/meshes
+[1.202s] copying urdf/meshes/j4.stl -> /home/jpm/hexabot_ws/install/hexabot_desc/share/hexabot_desc/urdf/meshes
+[1.203s] copying urdf/meshes/j6.stl -> /home/jpm/hexabot_ws/install/hexabot_desc/share/hexabot_desc/urdf/meshes
+[1.204s] copying urdf/meshes/j20.stl -> /home/jpm/hexabot_ws/install/hexabot_desc/share/hexabot_desc/urdf/meshes
+[1.205s] copying urdf/meshes/j23.stl -> /home/jpm/hexabot_ws/install/hexabot_desc/share/hexabot_desc/urdf/meshes
+[1.206s] copying urdf/meshes/j9.stl -> /home/jpm/hexabot_ws/install/hexabot_desc/share/hexabot_desc/urdf/meshes
+[1.207s] copying urdf/meshes/j21.stl -> /home/jpm/hexabot_ws/install/hexabot_desc/share/hexabot_desc/urdf/meshes
+[1.207s] copying urdf/meshes/j5.stl -> /home/jpm/hexabot_ws/install/hexabot_desc/share/hexabot_desc/urdf/meshes
+[1.207s] copying urdf/meshes/j16.stl -> /home/jpm/hexabot_ws/install/hexabot_desc/share/hexabot_desc/urdf/meshes
+[1.208s] copying urdf/meshes/j12.stl -> /home/jpm/hexabot_ws/install/hexabot_desc/share/hexabot_desc/urdf/meshes
+[1.209s] copying urdf/meshes/base_link.stl -> /home/jpm/hexabot_ws/install/hexabot_desc/share/hexabot_desc/urdf/meshes
+[1.210s] copying urdf/meshes/j11.stl -> /home/jpm/hexabot_ws/install/hexabot_desc/share/hexabot_desc/urdf/meshes
+[1.211s] copying urdf/meshes/j19.stl -> /home/jpm/hexabot_ws/install/hexabot_desc/share/hexabot_desc/urdf/meshes
+[1.211s] copying urdf/meshes/j15.stl -> /home/jpm/hexabot_ws/install/hexabot_desc/share/hexabot_desc/urdf/meshes
+[1.212s] copying urdf/meshes/j10.stl -> /home/jpm/hexabot_ws/install/hexabot_desc/share/hexabot_desc/urdf/meshes
+[1.213s] running install_egg_info
+[1.235s] Copying ../../build/hexabot_desc/hexabot_desc.egg-info to /home/jpm/hexabot_ws/install/hexabot_desc/lib/python3.10/site-packages/hexabot_desc-0.0.0-py3.10.egg-info
+[1.235s] running install_scripts
+[1.399s] writing list of installed files to '/home/jpm/hexabot_ws/build/hexabot_desc/install.log'
+[1.434s] Invoked command in '/home/jpm/hexabot_ws/src/hexabot_desc' returned '0': PYTHONPATH=/home/jpm/hexabot_ws/build/hexabot_desc/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jpm/hexabot_ws/install/hexabot_desc/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/hexabot_desc build --build-base /home/jpm/hexabot_ws/build/hexabot_desc/build install --record /home/jpm/hexabot_ws/build/hexabot_desc/install.log --single-version-externally-managed install_data
