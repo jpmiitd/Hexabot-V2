@@ -1,0 +1,55 @@
+
+R_OD = R_OH * R_HA * R_AB * R_BC * R_CD:
+
+x1 = sin(A)*sin(B)*cos(H) + sin(H)*cos(B) 
+                                     
+x2 = sin(A)*sin(B)*sin(H) - cos(B)*cos(H) 
+                                     
+x3 = -sin(B)*cos(A)            
+
+
+y1 = -(sin(A)*cos(B)*cos(H) - sin(B)*sin(H))*sin(C) + cos(A)*cos(C)*cos(H)  
+                                                                           
+y2 = -(sin(A)*sin(H)*cos(B) + sin(B)*cos(H))*sin(C) + sin(H)*cos(A)*cos(C)  
+                                                                           
+y3 = sin(A)*cos(C) + sin(C)*cos(A)*cos(B)                   
+
+
+z1 = -(sin(A)*cos(B)*cos(H) - sin(B)*sin(H))*cos(C) - sin(C)*cos(A)*cos(H)
+                                                                      
+z2 = -(sin(A)*sin(H)*cos(B) + sin(B)*cos(H))*cos(C) - sin(C)*sin(H)*cos(A)
+                                                                      
+z3 = -sin(A)*sin(C) + cos(A)*cos(B)*cos(C)  
+
+y3*sin(C) + z3*cos(C) = cos(A)*cos(B)
+
+
+
+
+T_OC*P_CD:
+
+X - d_x*y1 + o_x = a_y*cos(H) + (b_x + c_z)*cos(A)*cos(H) + c_y*(sin(A)*cos(B)*cos(H) - sin(B)*sin(H))
+                                                                                                                                                                                   
+Y - d_x*y2 + o_y = a_y*sin(H) + (b_x + c_z)*sin(H)*cos(A) + c_y*(sin(A)*sin(H)*cos(B) + sin(B)*cos(H)) 
+                                                                                                                                                                                   
+Z - d_x*y3 - a_z =              (b_x + c_z)*sin(A) - c_y*cos(A)*cos(B)     
+                               
+                                                                                                                                                                                   
+           
+
+
+
+(sin(A)*cos(B)*cos(H) - sin(B)*sin(H))*sin^2(C) = (cos(A)*cos(C)*cos(H) - y1)sin(C)  
+(sin(A)*cos(B)*cos(H) - sin(B)*sin(H))*cos^2(C) = (sin(C)*cos(A)*cos(H) + z1)cos(C)
+
+sin(A)*cos(B)*cos(H) - sin(B)*sin(H) = 2*sin(C)*cos(A)*cos(C)*cos(H) -y1*sin(C) + z1*cos(C)
+
+
+cos(H)(X - d_x*y1 + o_x) = a_y*cos^2(H) + (b_x + c_z)*cos(A)*cos^2(H) + c_y*(sin(A)*cos(B)*cos^2(H) - sin(B)*sin(H)*cos(H))
+                                                                                                                                                                                   
+sin(H)(Y - d_x*y2 + o_y) = a_y*sin^2(H) + (b_x + c_z)*sin^2(H)*cos(A) + c_y*(sin(A)*sin^2(H)*cos(B) + sin(B)*sin(H)*cos(H)) 
+
+
+cos(H)(X - d_x*y1 + o_x) + sin(H)(Y - d_x*y2 + o_y)  =  a_y + (b_x + c_z)*cos(A) + c_y*sin(A)*cos(B)
+
+Z - d_x*y3 - a_z =              (b_x + c_z)*sin(A) - c_y*(y3*sin(C) + z3*cos(C))     
