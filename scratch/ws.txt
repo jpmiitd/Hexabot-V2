@@ -50,6 +50,31 @@ cos(H)(X - d_x*y1 + o_x) = a_y*cos^2(H) + (b_x + c_z)*cos(A)*cos^2(H) + c_y*(sin
 sin(H)(Y - d_x*y2 + o_y) = a_y*sin^2(H) + (b_x + c_z)*sin^2(H)*cos(A) + c_y*(sin(A)*sin^2(H)*cos(B) + sin(B)*sin(H)*cos(H)) 
 
 
+
+
+x1*cos(H) = sin(A)*sin(B)*cos^2(H) + sin(H)*cos(B)cos(H)
+                                     
+x2*sin(H) = sin(A)*sin(B)*sin^2(H) - sin(H)cos(B)*cos(H) 
+
+
+x1*cos(H) + x2*sin(H) = sin(A)*sin(B)
+y3*sin(C) + z3*cos(C) = cos(A)*cos(B)
+
+
+
+----------------------------------------------------------------------------------------------------------------------------------
+
 cos(H)(X - d_x*y1 + o_x) + sin(H)(Y - d_x*y2 + o_y)  =  a_y + (b_x + c_z)*cos(A) + c_y*sin(A)*cos(B)
 
 Z - d_x*y3 - a_z =              (b_x + c_z)*sin(A) - c_y*(y3*sin(C) + z3*cos(C))     
+
+----------------------------------------------------------------------------------------------------------------------------------
+cos(A)(cos(H)(X - d_x*y1 + o_x) + sin(H)(Y - d_x*y2 + o_y) - a_y) =  (b_x + c_z)*cos^2(A) + c_y*sin(A)*cos(A)*cos(B)
+
+sin(A)(Z - d_x*y3 - a_z)                                          =  (b_x + c_z)*sin^2(A) - c_y*sin(A)*cos(A)*cos(B)
+
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+cos(A)(cos(H)(X - d_x*y1 + o_x) + sin(H)(Y - d_x*y2 + o_y) - a_y) + sin(A)(Z - d_x*y3 - a_z) =  (b_x + c_z)
+
+i.e p*cos(A) + q*sin(A) = r
